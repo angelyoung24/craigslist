@@ -2,17 +2,40 @@
     --cl-primary:#8859b7;
     --cl-secondary:#c8b6db;
     --cl-tieriary: #7d7784;
+    --cl-gray:#3d3b3f;
     --cl-font-size: 4em;
+    --cl-font-size-two: 1em;
 }
 
 body {
    background-color: var(--cl-secondary);
 }
 
-h1 {
-    text-align:center;
-    font-size: var(--cl-font-size);
+/* header */
 
+.header {
+    position: sticky;
+    height: 100px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: var(--cl-font-size);
+    text-shadow: 3px 3px white;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 3px 6px var(--cl-gray);
+}
+
+.container {
+    text-align: center;
+    display: inline-block;
 }
 
 a h3 {
@@ -22,7 +45,8 @@ a h3 {
 .dropbtn {
     background-color: var(--cl-primary);
     color: white;
-    padding: 16px;
+    padding: 10px;
+    margin: 10px;
     font-size: 16px;
     border: 1px solid var(--cl-secondary);
     box-shadow: 10px 10px 20px var(--cl-tieriary);
@@ -34,14 +58,14 @@ a h3 {
     background-color: var(--cl-tieriary);
 }
 
-#thisState {
+#thisState, #thisProv {
     font-size: 16px;
-    padding: 14px 20px 12px 45px;
+    padding: 14px 20px 20px 45px;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var();
 }
 
-#thisState:focus {
+#thisState:focus, #thisProv:focus {
     outline: 3px solid #ddd;
 }
 
