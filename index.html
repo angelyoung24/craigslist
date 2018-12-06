@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
 <script src="main.js"></script>
+
     <title>Craigslist</title>
 </head>
 <body>
-    <div class="container">
-            <h1>Craigslist</h1>
+<div class="header">
+    <h1>craigslist</h1>
+</div>
+<img name="slide" width="1280" height="719" />
+        <div class="container">
             <div class="dropdown">
                 <button onclick="dropStates()" class="dropbtn"><h2>USA</h2></button>
                     <div id="myStates" class="dropdown-content">
@@ -69,12 +73,31 @@
                 <a href="#Wyoming"><h3>Wyoming</h3></a>
                 </div>
                 </div>
-            <h2>Canada</h2>
-            <h2>Europe</h2>
-            <h2>Asia, Pacific and Middle East</h2>
-            <h2>Oceania</h2>
-            <h2>Latin America and Caribbean</h2>
-            <h2>Africa</h2>
+        <div class="dropdown">
+            <button onclick="dropProv()" class="dropbtn"><h2>Canada</h2></button> 
+                <div id="myProv" class="dropdown-content">
+                <input type="text" placeholder="Search Provence" id="thisProv" onkeyup="searchProv()">
+                    <a href="#Alberta"><h3>Alberta</h3></a>
+                    <a href="#BritishColumbia"><h3>British Columbia</h3></a>
+                    <a href="#Manitoba"><h3>Manitoba</h3></a>
+                    <a href="#NewBrunswick"><h3>New Brunswick</h3></a>
+                    <a href="#NewfoundlandandLabrador"><h3>Newfoundland and Labrador</h3></a>
+                    <a href="#NorthwestTerritories"><h3>Northwest Territories</h3></a>
+                    <a href="#NovaScotia"><h3>Nova Scotia</h3></a>
+                    <a href="#Ontario"><h3>Ontario</h3></a>
+                    <a href="#PrinceEdwardIsland"><h3>Prince Edward Island</h3></a>
+                    <a href="#Quebec"><h3>Quebec</h3></a>
+                    <a href="#Saskatchewan"><h3>Saskatchewan</h3></a>
+                    <a href="#YukonTerritory"><h3>Yukon Territory</h3></a>
+                        </div>
+                            </div>
+            <button onclick="dropProv()" class="dropbtn"><h2>Europe</h2></button>
+            <button onclick="dropProv()" class="dropbtn"><h2>Asia, Pacific, and Middle East</h2></button>
+            <button onclick="dropProv()" class="dropbtn"><h2>Oceania</h2></button>
+            <button onclick="dropProv()" class="dropbtn"><h2>Latin America and Caribbean</h2></button>
+            <button onclick="dropProv()" class="dropbtn"><h2>Africa</h2></button>
     </div>
+
 </body>
+<script src="slider.js"></script>
 </html>
