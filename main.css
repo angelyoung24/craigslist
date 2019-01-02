@@ -1,3 +1,4 @@
+
 :root {
     --cl-primary:#8859b7;
     --cl-secondary:#c8b6db;
@@ -11,26 +12,17 @@ body {
    background-color: var(--cl-secondary);
 }
 
-/* header */
-
-.header {
-    position: sticky;
-    height: 100px;
-
+i {
+    color: black;
 }
 
 h1 {
-    text-align: center;
+    font-family: 'Noto Sans JP',
+    sans-serif;
     font-size: var(--cl-font-size);
-    text-shadow: 3px 3px white;
-
-}
-
-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 6px 3px 6px var(--cl-gray);
+    float: left;
+    color: black;
 }
 
 .container {
@@ -38,24 +30,19 @@ img {
     display: inline-block;
 }
 
-a h3 {
+a h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .dropbtn {
     background-color: var(--cl-primary);
-    color: white;
-    padding: 10px;
-    margin: 10px;
     font-size: 16px;
-    border: 1px solid var(--cl-secondary);
-    box-shadow: 10px 10px 20px var(--cl-tieriary);
     cursor: pointer;
 }
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: var(--cl-tieriary);
+    background-color: var(--cl-primary);
 }
 
 #thisState, #thisProv {
@@ -77,7 +64,7 @@ a h3 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--cl-secondary);
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
