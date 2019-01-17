@@ -4,7 +4,7 @@
     --cl-secondary:#c8b6db;
     --cl-tieriary: #7d7784;
     --cl-gray:#3d3b3f;
-    --cl-font-size: 4em;
+    --cl-font-size: 3em;
     --cl-font-size-two: 1em;
 }
 
@@ -25,63 +25,7 @@ h1 {
     color: black;
 }
 
-.container {
-    text-align: center;
-    display: inline-block;
-}
 
-a h6 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.dropbtn {
-    background-color: var(--cl-primary);
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: var(--cl-primary);
-}
-
-#thisState, #thisProv {
-    font-size: 16px;
-    padding: 14px 20px 20px 45px;
-    border: none;
-    border-bottom: 1px solid var();
-}
-
-#thisState:focus, #thisProv:focus {
-    outline: 3px solid #ddd;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--cl-secondary);
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #ddd;
-}
-
-.show {
-    display: block;
-}
+/* .carousel-item {
+    height: 700px;
+} */
